@@ -1,0 +1,6 @@
+a=input()
+b = (a[1: (len(a))])
+print((a)+(", ")+(a)+(", bo-b")+(b))
+print(("banana-fana fo-f")+(b))
+print(("fee-fi-mo-m")+(b))
+print((a)+("!"))

@@ -1,0 +1,5 @@
+magic=input()
+a=(magic[0])
+c = (magic [(len(magic)-1)])
+b = (magic[1: (len(magic)-1)])
+print((c) + (b) + (a))

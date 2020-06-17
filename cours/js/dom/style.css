@@ -1,0 +1,16 @@
+.navbar__item {
+    display: inline;
+}
+
+.navbar__item--current {
+    border: 1px solid green;
+}
+
+.navbar__item--current>a {
+    color: green;
+    text-decoration: none;
+}
+
+.is-invisible {
+    display: none;
+}

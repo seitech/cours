@@ -1,0 +1,13 @@
+npm int
+
+npm install --save-dev node-sass
+
+npx node-sass scss/main.scss css/style.css
+
+npm install --save-dev postcss postcss-cli
+
+npm install --save-dev autoprefixer cssnano
+
+npx postcss css/style.css -o css/style.css -u autoprefixer
+
+npx postcss css/style.css -o css/style.css -u cssnano

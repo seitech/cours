@@ -1,0 +1,31 @@
+npx node-sass scss/main.scss css/style.css
+npx node-sass scss/main.scss css/style.css
+npx postcss css/style.css -o css/style.css -u autoprefixer
+npx postcss css/style.css -o css/style.css -u cssnano
+
+
+
+
+package.json
+{
+  "name": "sass-tuto",
+  "version": "1.0.0",
+  "description": "Tuto for Sass + PostCSS",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "bulma": "^0.8.2",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.14.0",
+    "normalize-scss": "^7.0.1",
+    "normalize.css": "^8.0.1",
+    "postcss-cli": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node-sass scss/main.scss css/style.css",
+    "prod": "node-sass scss/main.scss css/style.css && postcss css/style.css -o css/style.css -u autoprefixer && postcss css/style.css -o css/style.css -u cssnano"
+  },
+  "author": "Jblavisse",
+  "license": "ISC"
+}
